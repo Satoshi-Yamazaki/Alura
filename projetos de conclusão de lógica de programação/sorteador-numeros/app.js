@@ -16,15 +16,18 @@ function sortear() {
     let sorteados = [];
     let numero;
 
-    for (let i = 0; i < quant; i++) {
-        numero = numeroAleatorio(de, ate);
-
-        while (sorteados.includes(numero)) {
-            numero = numeroAleatorio(de, ate)
-        }
-
+    if (quant > ((ate - de) + 1)) {
+        alert("parece que você é burro!!!")
+    } else {
+        for (let i = 0; i < quant; i++) {
+            numero = numeroAleatorio(de, ate);
+            while (sorteados.includes(numero)) {
+                numero = numeroAleatorio(de, ate)
+            }
         sorteados.push(numero);
+        }
     }
+
 
     console.log(sorteados);
 
