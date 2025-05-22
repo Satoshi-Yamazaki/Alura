@@ -1,0 +1,1 @@
+Este repositório contém os arquivos dos cursos da Alura que estou utilizando para aprender e praticar lógica de programação e conceitos fundamentais de desenvolvimento. Aqui você encontrará exercícios, anotações, projetos simples e outras "tralhas organizadas" que fazem parte do meu processo de aprendizado.
